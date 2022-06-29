@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="pag">
+
+        <div id="base">
+            <div id="result"></div>
+
+
+            <div id="botoes">
+                <button id="b1" class="caixabotoes" onclick="clicado('1')">1</button>
+                <button id="b2" class="caixabotoes" onclick="clicado('2')">2</button>
+                <button id="b3" class="caixabotoes" onclick="clicado('3')">3</button>
+                <button id="bx" class="caixabotoes" onclick="clicado('*')">*</button>
+                <button id="b4" class="caixabotoes" onclick="clicado('4')">4</button>
+                <button id="b5" class="caixabotoes" onclick="clicado('5')">5</button>
+                <button id="b6" class="caixabotoes" onclick="clicado('6')">6</button>
+                <button id="b%" class="caixabotoes" onclick="clicado('/')">/</button>
+                <button id="b7" class="caixabotoes" onclick="clicado('7')">7</button>
+                <button id="b8" class="caixabotoes" onclick="clicado('8')">8</button>
+                <button id="b9" class="caixabotoes" onclick="clicado('9')">9</button>
+                <button id="bigual" class="caixabotoes" onclick="calcular('')">=</button>
+                <button id="b9" class="caixabotoes" onclick="clicado('0')">0</button>
+                <button id="b-" class="caixabotoes" onclick="clicado('-')">-</button>
+                <button id="b+" class="caixabotoes" onclick="clicado('+')">+</button>
+                <button id="bc" class="caixabotoes" onclick="clean()">C</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;Matheus Coutinho de Paula - 20/03/2022</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+
+</html>
